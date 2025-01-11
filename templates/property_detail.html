@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ property.title }}</title>
+</head>
+<body>
+    <h1>{{ property.title }}</h1>
+    <p>Location: {{ property.location }}</p>
+    <p>Price: ${{ property.price }}</p>
+    <p>Description: {{ property.description }}</p>
+    <p>Bedrooms: {{ property.bedrooms }}</p>
+    <p>Bathrooms: {{ property.bathrooms }}</p>
+    <p>Sq Ft: {{ property.sqft }}</p>
+    <img src="{{ property.photo_main.url }}" alt="Main Photo" width="400">
+</body>
+</html>
