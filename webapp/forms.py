@@ -10,10 +10,10 @@ from django.forms.widgets import PasswordInput,TextInput
 
 
 #register/create user
-class CreateUserForm(UserCreationForm):
-    class Meta:
-        model =User #it will be saved to this model database
-        fields = ['username','password1','password2'] # we set the attributes as went here not from the model
+# class CreateUserForm(UserCreationForm):
+#     class Meta:
+#         model =User #it will be saved to this model database
+#         fields = ['username','password1','password2'] # we set the attributes as went here not from the model
 
 
 #crate log in form
