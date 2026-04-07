@@ -46,8 +46,8 @@ def my_login(request):
                 auth.login(request,user) # authenticate honoal wedemifelegew page lemegbat biku new
                 messages.success(request,'you have logged in!')
                 return redirect('dashboard') #redirect ykebelewal since the user authenticated(nav bar displaye yileyal b/c user alread yauthenticated)
-    else:
-      return render(request,'my-login.html',{'form':form})
+    
+    return render(request,'my-login.html',{'form':form})
     
     
    # user logout 
